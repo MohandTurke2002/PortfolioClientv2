@@ -16,7 +16,7 @@ const ToggleSideBarBtn = ({ isOpen, setIsOpen }: propTypes) => {
   return (
     <>
       <Button
-        className="w-28 h-3 rounded-full relative sm:w-10 sm:h-10 sm:rounded-tl-none sm:rounded-bl-none sm:rounded-tr-full sm:rounded-br-full sm:transition-all sm:absolute sm:top-10 sm:-right-10"
+        className="w-28 h-3 rounded-full relative sm:w-10 sm:h-10 sm:rounded-tl-none sm:rounded-bl-none sm:rounded-tr-full sm:rounded-br-full sm:transition-all sm:sticky sm:top-10 sm:-right-10"
         isIconOnly={true}
         color="primary"
         variant="solid"

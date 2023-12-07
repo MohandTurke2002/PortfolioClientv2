@@ -2,7 +2,7 @@
 
 import { Button } from "@nextui-org/react";
 import Link from "next/link";
-import { LinksType } from "../data/client-routes";
+import { LinksType } from "@/data/client-routes";
 import { usePathname } from "next/navigation";
 
 const LinksBtn = ({ name, url, IconOutline, IconSolid }: LinksType) => {

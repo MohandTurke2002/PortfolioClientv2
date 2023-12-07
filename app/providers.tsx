@@ -6,7 +6,7 @@ import React from "react";
 
 function Providers({ children }: { children: React.ReactNode }) {
   return (
-    <NextUIProvider className="flex gap-x-8">
+    <NextUIProvider className="flex gap-x-8 w-full min-h-screen">
       <NextThemesProvider attribute="class" defaultTheme="system">
         {children}
       </NextThemesProvider>

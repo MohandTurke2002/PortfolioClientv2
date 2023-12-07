@@ -1,7 +1,7 @@
 "use client";
 
 import { adminRoutes } from "@/data/admin-routes";
-import LinksBtn from "@/components/links-btn";
+import LinksBtn from "@/components/side-bar/links-btn";
 
 const AdminRoutes = () => {
   return (

@@ -1,7 +1,9 @@
+import AddProjectForm from "@/components/project-from/add-project-from";
+
 function addProject() {
   return (
-    <div>
-      <h1>Add Project Page</h1>
+    <div className="flex w-full justify-around items-center h-full">
+      <AddProjectForm />
     </div>
   );
 }

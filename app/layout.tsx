@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Providers from "./providers";
-import SideBar from "@/components/side-bar";
+import SideBar from "@/components/side-bar/side-bar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={`${inter.className} h-screen`}>
         <Providers>
           <SideBar />
-          <main className="flex-1">{children}</main>
+          <main className="flex flex-1 justify-center">{children}</main>
         </Providers>
       </body>
     </html>
